@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+background: linear-gradient(to right, rgb(0, 0, 0), rgb(15, 15, 15), rgb(50, 51, 50)); 
+    background-size: 200% 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+animation-name: background;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes background{
+
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+h1{
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+div {
+
+    text-align: center;
+    position: center;
+    
+}
+
+button {
+
+    border-radius: 10px;
+    height: 2.5em;
+    width: 5em;
+    border: none;
+    color: white;
+
+}
+
+.inc{
+    background-color: rgb(15, 235, 15);
+
+}
+
+.pau{
+    background-color: #ccc;
+
+}
+
+.par{
+
+    background-color: red;
+}
